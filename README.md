@@ -34,4 +34,4 @@ cl.salmontt.app.Main
 5. observa en la consola los resultados generados por los objetos intanciados
 
 Repositorio GitHub: https://github.com/kolagosmorales-hash/Salmontt.git
-Fecha de entrega: [10/11/2025]
+Fecha de entrega: 10/11/2025
