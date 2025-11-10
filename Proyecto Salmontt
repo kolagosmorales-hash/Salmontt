@@ -1,0 +1,38 @@
+Evaluación Sumativa 1: Realizando validación, excepciones y relaciones entre clases – Desarrollo Orientado a Objetos I
+Autor del proyecto
+Nombre completo: Konny Alejandra Lagos Morales
+Sección: 003A
+Carrera: Analista Programador Computacional
+Sede: Online
+
+Descripción general del sistema
+Este proyecto implementa un modelo básico en java para representar a las personas relacionada con la empresa Salmontt, el objetivos es organizar su información interna de forma estructurada utilizando principio de programacion orientada a objeto
+El sistema incluye clases que representan direcciones, personas y empleados, aplicando encapsulamiento (atributo privados y getters/setters), composisción (una persona contiene una dirección) y herencia (empleado extiende persona). 
+La estructura del proyecto esta organizada en paquetes que permite modularidad y facilitar el crecimiento del sistema en estapas futuras. 
+
+Estructura general del proyecto y clases implementadas 
+
+El proyecto esta organizado en dos paquetes principales dentro de: 
+src//main/java/cl/salmontt/
+├── app/        --> Clase principal con el método main.
+    ├── main.java  --> Clase que ejecuta el programa, se crea intancia de la clase modelo y se muestra el resultado por consola.
+├── model/      --> Contiene las clases del dominio del sistema  
+    ├── Direccion.java --> Clase usada en composicion (una Persona tiene una Direccion)
+    ├── Persona.java --> Clase base del dominio
+    ├── Empleado.java --> Clase que extiene a persona (herencia) 
+
+Instrucciones para clonar y ejecutar el proyecto
+1. descarga o clona el repositorio 
+https://github.com/kolagosmorales-hash/Salmontt.git
+2.Abre el proyecto en IntelliJ IDEA.
+
+3. Verifica que las clases esten ubicadas corectamente dentro de: 
+src/main/java/cl/salmontt/
+
+4. Ejecuta la clase Main ubicada en: 
+cl.salmontt.app.Main
+5. observa en la consola los resultados generados por los objetos intanciados
+
+Repositorio GitHub: https://github.com/kolagosmorales-hash/Salmontt.git
+Fecha de entrega: [10/11/2025]
+
